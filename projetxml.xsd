@@ -1,0 +1,70 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<xsd:schema xmlns:xsd = "www.w3.org/2001/XMLSchema">
+    <xsd:element name = "bibliographie">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name = "livre" minOccurs = "1" maxOccurs = "unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name = "titre" type = "xsd:string"></xsd:element>
+                            <xsd:element name = "auteurs">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name = "auteur" minOccurs ="0" maxOccurs = "unbounded"></xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name = "tomes">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name = "tome" minOccurs = "1">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name = "page" type = "xsd:int"></xsd:element>
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name = "infosEdition"> 
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name = "editeur" type = "xsd:string"></xsd:element>
+                                        <xsd:element name = "lieuEdition" type = "xsd:string"></xsd:element>
+                                        <xsd:element name = "lieuImpression" type = "xsd:string"></xsd:element>
+                                        <xsd:element name = "ISBN" type = "xsd:string"></xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name = "avis" type = "xsd:string" ></xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name = "artile">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name = "titre" type = "xsd:string"/>
+                                <xsd:element name = "auteurs">
+                                    <xsd:complexType>
+                                        <xsd:sequence>
+                                            <xsd:element name = "auteur" type = "xsd:string" minOccurs = "0" maxOccurs = "unbounded"></xsd:element>
+                                        </xsd:sequence>
+                                    </xsd:complexType>
+                                </xsd:element>
+                                <xsd:element name = "infosPublication">
+                                    <xsd:complexType>
+                                        <xsd:sequence>
+                                            <xsd:element name = "nomJournal" type = "xsd:string"></xsd:element>
+                                            <xsd:element name = "page" type = "xsd:int"></xsd:element>
+                                            <xsd:element name = "anneePublication" type = "xsd:string"></xsd:element>
+                                        </xsd:sequence>
+                                    </xsd:complexType>
+                                </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

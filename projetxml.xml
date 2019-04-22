@@ -1,0 +1,79 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!--<?xml-stylesheet type = "text/xsl" href = "projetxml.xsl"?>-->
+<?xml-stylesheet href="projetxml.css" type="text/css" ?>
+<bibliographie xmlns:xsd = "http://www.w3.org/2001/XMLSchema-instance" xsd:SchemaLocation = "projetxml.xsd">
+        <livre>
+            <titre>xml</titre>
+            <auteurs>
+                <auteur>Jesus Kazembe</auteur>
+                <auteur>Kidinda k.</auteur>
+                <auteur>Kazembe Jesus</auteur>
+            </auteurs>
+            <tomes>
+                <tome>
+                    <page>120</page>
+                </tome>
+                <tome>
+                    <page>280</page>
+                </tome>
+            </tomes>
+            <infosEdition>
+                <editeur>Jean Du Pont</editeur>
+                <lieuEdition>Paris</lieuEdition>
+                <lieuImpression>Eyrols</lieuImpression>
+                <ISBN>1324354657</ISBN>
+            </infosEdition>
+            <avis>Bonjour a tous</avis>
+        </livre>
+        <livre>
+            <titre>Python</titre>
+            <auteurs>
+                <auteur>Kidinda K</auteur>
+                <auteur>Jesus Kidinda</auteur>
+                <auteur>Jesus K.</auteur>
+            </auteurs>
+            <tomes>
+                <tome nom="tome1">
+                    <page>210</page>
+                </tome>
+                <tome nom="tome2">
+                    <page>208</page>
+                </tome>
+            </tomes>
+            <infosEdition>
+                <editeur>Jean De Boulanger</editeur>
+                <lieuEdition>Paris</lieuEdition>
+                <lieuImpression>Eyrols</lieuImpression>
+                <ISBN>2435465768</ISBN>
+            </infosEdition>
+            <avis></avis>
+        </livre>
+        <article>
+            <titre>Deep Learning</titre>
+            <auteurs>
+                <auteur>Jesus K.</auteur>
+                <auteur>Kazembe K.</auteur>
+            </auteurs>
+            <infosPublication>
+                <nomJournal>Le figaro</nomJournal>
+                <page>120</page>
+                <anneePublication>2010</anneePublication>
+                <numeroJournal>20</numeroJournal>
+            </infosPublication>
+            <avis>The best seller</avis>
+        </article>
+        <article>
+            <titre>Model d'apprentissage</titre>
+            <auteurs>
+                <auteur>Kazembe kidinda jesus</auteur>
+                <auteur>Kidinda Jesus K.</auteur>
+            </auteurs>
+            <infosPublication>
+                <nomJournal>NDM</nomJournal>
+                <page>228</page>
+                <anneePublication>2019</anneePublication>
+                <numeroJournal>40</numeroJournal>
+            </infosPublication>
+            <avis></avis>
+        </article>
+</bibliographie>
