@@ -75,4 +75,18 @@
             </infosPublication>
             <avis></avis>
         </article>
+        <article>
+            <titre>Model d'apprentissage</titre>
+            <auteurs>
+                <auteur>Kazembe kidinda jesus</auteur>
+                <auteur>Kidinda Jesus K.</auteur>
+            </auteurs>
+            <infosPublication>
+                <nomJournal>NDM</nomJournal>
+                <page>228</page>
+                <anneePublication>2019</anneePublication>
+                <numeroJournal>40</numeroJournal>
+            </infosPublication>
+            <avis></avis>
+        </article>
 </bibliographie>

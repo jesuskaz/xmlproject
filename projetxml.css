@@ -1,8 +1,7 @@
 body
 {
-    padding-left: 550px; 
-    background-color: cadetblue;
-    color: white;
+    padding-left: 400px; 
+    background-color: aquamarine;
 }
 td
 {
@@ -15,5 +14,19 @@ b
 }
 strong
 {
-    background-color: darkgreen; 
+    background-color: rgb(58, 10, 192); 
+}
+b table
+{
+    margin-right: -100px;
+    margin-inline-start: 400px;
+    margin-top: -114%;
+}
+G 
+{
+    background-color: gold;
+}
+m
+{
+    background-color: rgb(206, 10, 4);
 }

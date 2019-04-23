@@ -8,41 +8,53 @@
                 <link type="text/css" rel="stylesheet" href="projetxml.css"/>
             </head>
             <body>
-                <b>BIBLIOGRAPHIE</b>
-                <xsl:for-each select = "bibliographie/livre">
-                    <p>LIVRE : <xsl:value-of select = "titre"/><br/></p>
-                    <p>
-                        <p>AUTEUR(S):</p>
-                        <xsl:for-each select = "auteurs/auteur">
-                            <p><xsl:value-of select = "." /><br /></p>
-                        </xsl:for-each>
-                    </p>
-                    <p>TOMES</p> 
-                    <xsl:for-each select = "tomes/tome">
+                <p>BIBLIOGRAPHIE</p>
+                <table border = "8">
+                    <xsl:for-each select = "bibliographie/livre">
+                        <tr>
+                            <td>LIVRE <xsl:value-of select = "titre"/></td>
+                        </tr><br/>
                         <p>
-                            Nombre de page :<xsl:value-of select = "."/><br/>
+                            <strong>AUTEUR(S)</strong>
+                            <xsl:for-each select = "auteurs/auteur">
+                                <p><xsl:value-of select = "." /><br /></p>
+                            </xsl:for-each>
                         </p>
+                        <G>TOMES</G>
+                        <xsl:for-each select = "tomes/tome">
+                            <p>
+                                Nombre de page :<xsl:value-of select = "."/><br/>
+                            </p>
+                        </xsl:for-each>
+                        <m>INFORMATIONS D'EDITION</m>
+                        <p>Editeur : <xsl:value-of select = "infosEdition/editeur"/></p>
+                        <p>Lieu Edition : <xsl:value-of select = "infosEdition/lieuEdition"/></p>
+                        <p>Lieu Impression : <xsl:value-of select = "infosEdition/lieuImpression"/></p>
+                        <p>ISBN : <xsl:value-of select = "infosEdition/ISBN"/></p>
+                        <p>Avis : <xsl:value-of select = "avis"/></p>
                     </xsl:for-each>
-                    <p>INFORMATIONS D'EDITION</p>
-                    <p>Editeur : <xsl:value-of select = "infosEdition/editeur"/></p>
-                    <p>Lieu Edition : <xsl:value-of select = "infosEdition/lieuEdition"/></p>
-                    <p>Lieu Impression : <xsl:value-of select = "infosEdition/lieuImpression"/></p>
-                    <p>ISBN : <xsl:value-of select = "infosEdition/ISBN"/></p>
-                    <p>Avis : <xsl:value-of select = "avis"/></p>
-                </xsl:for-each>
-                <xsl:for-each select = "bibliographie/article">
-                    <p>ARTICLE : <xsl:value-of select = "titre"/></p>
-                    <p>AUTEUR(S):</p>
-                    <xsl:for-each select = "auteurs/auteur">
-                        <p><xsl:value-of select = "."/></p>
+                </table>
+                <b>
+                <table border = "4">
+                
+                    <xsl:for-each select = "bibliographie/article">
+                        <tr>
+                            <td>ARTICLE : <xsl:value-of select = "titre"/></td>
+                        </tr>
+                        <strong>AUTEUR(S):</strong>
+                        <xsl:for-each select = "auteurs/auteur">
+                            <p><xsl:value-of select = "."/></p>
+                        </xsl:for-each>
+                        <m>INFORMATIONS PUBLICATION</m>
+                        <p>Nom Journal : <xsl:value-of select = "infosPublication/nomJournal"/></p>
+                        <p>Nombre de pages : <xsl:value-of select = "infosPublication/page"/></p>
+                        <p>Annee Publication : <xsl:value-of select = "infosPublication/anneePublication"/></p>
+                        <p>Numero Journal : <xsl:value-of select = "infosPublication/numeroJournal"/></p>
+                        <p>Avis: <xsl:value-of select = "avis"/></p>
                     </xsl:for-each>
-                    <p>INFORMATIONS PUBLICATION</p>
-                    <p>Nom Journal : <xsl:value-of select = "infosPublication/nomJournal"/></p>
-                    <p>Nombre de pages : <xsl:value-of select = "infosPublication/page"/></p>
-                    <p>Annee Publication : <xsl:value-of select = "infosPublication/anneePublication"/></p>
-                    <p>Numero Journal : <xsl:value-of select = "infosPublication/numeroJournal"/></p>
-                    <p>Avis: <xsl:value-of select = "avis"/></p>
-                </xsl:for-each>
+                
+                </table>
+                </b>
             </body>
         </html>
     </xsl:template>
