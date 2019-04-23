@@ -1,70 +1,19 @@
 body
 {
-    color: blue;
-}
-/*bibliographie
-{
-    padding-left: 400px;
-    padding-right: 600px;
-}
-titre
-{
-    display: block;
-    background:#690;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    
-}
-auteurs
-{
-    display: block;
-    background-color:gray;
-    
-}
-auteur
-{
-    display: block;
-    background-color:gray;
+    padding-left: 550px; 
+    background-color: cadetblue;
     color: white;
 }
-tome
+td
 {
-    display: block;
+    background-color: green;
 }
-editeur
+b
 {
-    display: block;
+   margin-left: 10px;
+   display: block;
 }
-lieuEdition
+strong
 {
-    display: block;
-   
+    background-color: darkgreen; 
 }
-lieuImpression
-{
-    display: block;
-}
-ISBN
-{
-    display: block;
-}
-avis
-{
-    display: block;
-}
-nomJournal
-{
-    display: block;
-
-}
-numeroJournal
-{
-    display: block
-}
-anneePublication
-{
-    display: block;
-}*/
