@@ -1,6 +1,6 @@
 body
 {
-    padding-left: 400px; 
+    padding-left: 300px; 
     background-color: aquamarine;
 }
 td
@@ -20,7 +20,7 @@ b table
 {
     margin-right: -100px;
     margin-inline-start: 400px;
-    margin-top: -114%;
+    margin-top: -102%;
 }
 G 
 {
@@ -29,4 +29,10 @@ G
 m
 {
     background-color: rgb(206, 10, 4);
+}
+u
+{
+    padding-left: 190px;
+    font-size: 40px;
+    color: white;
 }
