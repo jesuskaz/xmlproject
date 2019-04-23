@@ -1,11 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<!--<?xml-stylesheet type = "text/xsl" href = "projetxml.xsl"?>-->
-<?xml-stylesheet href="projetxml.css" type="text/css" ?>
+<?xml-stylesheet type = "text/xsl" href = "projetxml.xsl"?>
 <bibliographie xmlns:xsd = "http://www.w3.org/2001/XMLSchema-instance" xsd:SchemaLocation = "projetxml.xsd">
         <livre>
             <titre>xml</titre>
             <auteurs>
-                <auteur>Jesus Kazembe</auteur>
+                <auteur>Jesus Kazembe</auteur>ml
                 <auteur>Kidinda k.</auteur>
                 <auteur>Kazembe Jesus</auteur>
             </auteurs>
@@ -21,7 +20,7 @@
                 <editeur>Jean Du Pont</editeur>
                 <lieuEdition>Paris</lieuEdition>
                 <lieuImpression>Eyrols</lieuImpression>
-                <ISBN>1324354657</ISBN>
+                <ISBN>13-24-35-4</ISBN>
             </infosEdition>
             <avis>Bonjour a tous</avis>
         </livre>
@@ -44,7 +43,7 @@
                 <editeur>Jean De Boulanger</editeur>
                 <lieuEdition>Paris</lieuEdition>
                 <lieuImpression>Eyrols</lieuImpression>
-                <ISBN>2435465768</ISBN>
+                <ISBN>24-35-46-57</ISBN>
             </infosEdition>
             <avis></avis>
         </livre>
