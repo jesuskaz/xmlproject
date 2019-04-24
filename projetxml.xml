@@ -76,16 +76,16 @@
             <avis></avis>
         </article>
         <article>
-            <titre>Model d'apprentissage</titre>
+            <titre>Algorithmique</titre>
             <auteurs>
-                <auteur>Kazembe kidinda jesus</auteur>
-                <auteur>Kidinda Jesus K.</auteur>
+                <auteur>Jean Boulanger</auteur>
+                <auteur>Jesus K.</auteur>
             </auteurs>
             <infosPublication>
-                <nomJournal>NDM</nomJournal>
-                <page>228</page>
-                <anneePublication>2019</anneePublication>
-                <numeroJournal>40</numeroJournal>
+                <nomJournal>Figaro</nomJournal>
+                <page>190</page>
+                <anneePublication>2018</anneePublication>
+                <numeroJournal>50</numeroJournal>
             </infosPublication>
             <avis></avis>
         </article>

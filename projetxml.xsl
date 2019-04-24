@@ -8,7 +8,9 @@
                 <link type="text/css" rel="stylesheet" href="projetxml.css"/>
             </head>
             <body>
-                <p>BIBLIOGRAPHIE</p>
+            <h4>By Kazembe Kidinda Jésus G2 SI</h4>
+                <p><u>BIBLIOGRAPHIE</u></p>
+                <blockquote>
                 <table border = "8">
                     <xsl:for-each select = "bibliographie/livre">
                         <tr>
@@ -23,7 +25,7 @@
                         <G>TOMES</G>
                         <xsl:for-each select = "tomes/tome">
                             <p>
-                                Nombre de page :<xsl:value-of select = "."/><br/>
+                                page par tome :<xsl:value-of select = "."/><br/>
                             </p>
                         </xsl:for-each>
                         <m>INFORMATIONS D'EDITION</m>
@@ -34,6 +36,7 @@
                         <p>Avis : <xsl:value-of select = "avis"/></p>
                     </xsl:for-each>
                 </table>
+                </blockquote>
                 <b>
                 <table border = "4">
                 

@@ -1,11 +1,12 @@
 body
 {
     padding-left: 300px; 
-    background-color: aquamarine;
+    background-color: green;
+    color: white;
 }
 td
 {
-    background-color: green;
+    background-color: indigo;
 }
 b
 {
@@ -20,7 +21,8 @@ b table
 {
     margin-right: -100px;
     margin-inline-start: 400px;
-    margin-top: -102%;
+    margin-top: -106%;
+    padding:10px;
 }
 G 
 {
@@ -35,4 +37,14 @@ u
     padding-left: 190px;
     font-size: 40px;
     color: white;
+}
+h4
+{
+    padding-left: 240px;
+    color: white;
+}
+blockquote table
+{
+    padding: 10px;
+    margin-top: 100px;
 }
